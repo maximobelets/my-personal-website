@@ -1,7 +1,20 @@
 a {
     text-decoration: none;
+    display:block;
 }
+
+.container {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 // Variables
 
 $main-color: #1F1F20;
+$second-color: #F5F1F1;
+
+$tablet-width:  768px;
+$mobile-width: 375px;

@@ -1,0 +1,15 @@
+.projects {
+    background-color: $main-color;
+}
+
+.projects__images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects__image {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 360px;
+    height: 225px;
+}

@@ -9,42 +9,46 @@
 </head>
 <body>
     <header class="page-header">
-        <nav class="main-nav">
-            <ul class="main-nav__list">
-                <li class="main-nav__item">
-                    <img src="img/logo.png" alt="Logotype" class="main-nav__image">
-                </li>
-                <li class="main-nav__item">About me</li>
-                <li class="main-nav__item">Projects</li>
-                <li class="main-nav__item">Contacts</li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="page-header__nav">
+                <ul class="page-header__list">
+                    <li class="page-header__item">
+                        <img src="img/logo.png" alt="Logotype" class="page-header__image">
+                    </li>
+                    <li class="page-header__item">About me</li>
+                    <li class="page-header__item">Projects</li>
+                    <li class="page-header__item">Contacts</li>
+                </ul>
+            </nav>
+        </div>
         <h1 class="page-header__title">
-            My name’s Maxim Obelets.
-            I’m a web developer.
+        My name’s Maxim Obelets. 
+        I’m a web developer.
         </h1>
     </header>
     <main class="page-main">
         <section class="about-me">
-            <img src="img/photo.jpg" alt="My photo" class="about-me__image">
-            <p class="about-me__description">
-                I create websites and web applications.
-
-                In my work I primarily focus on users’s needs.
-                I love beautiful code and UX.
-                I’m ready to help you to come up with an idea and to  accomplish
-                the work to the final stage og the finished project
-            </p>
+            <div class="container">
+                <div class="about-me__container">
+                    <img src="img/photo.png" alt="My photo" class="about-me__image">
+                    <p class="about-me__description">
+                        I create websites and web applications.
+                        
+                        In my work I primarily focus on users’s needs.
+                        I love beautiful code and UX.
+                        I’m ready to help you to come up with an idea and to  accomplish
+                        the work to the final stage og the finished project
+                    </p>
+                </div>
+            </div>
         </section>
         <section class="projects">
-            <div class="projects__item--ps">
-                <img src="img/ps.jpg" alt="My site" class="projects__image--ps">
-            </div>
-            <div class="projects__item--todo">
-                <img src="img/todo.jpg" alt="ToDo" class="projects__image--todo">
-            </div>
-            <div class="projects__item--calc">
-                <img src="img/calc.jpg" alt="Calculator" class="projects__image--calc">
+            <div class="container">
+                <section class="projects__images">
+                    <img src="img/ps.jpg" alt="My site" class="projects__image">
+                    <img src="img/todo.jpg" alt="ToDo" class="projects__image">
+                    <img src="img/calc.jpg" alt="Calculator" class="projects__image">
+                </section>
             </div>
         </section>
         <section class="skills">
@@ -55,7 +59,19 @@
         </section>
     </main>
     <footer class="page-footer">
-        2019
+        <section class="contacts">
+            <ul class="contacts__list">
+                <li class="contacts__item">
+                    <a href="https://github.com/maximobelets" target="blank" class="contacts__link contacts__link--github"></a>
+                </li>
+                <li class="contacts__item">
+                    <a href="https://vk.com/id29824991" target="blank" class="contacts__link contacts__link--vk"></a>
+                </li>
+                <li class="contacts__item">
+                    <a href="https://www.instagram.com/maximobelets" target="blank" class="contacts__link contacts__link--inst"></a>
+                </li>
+            </ul>
+        </section>
     </footer>
 </body>
 </html>

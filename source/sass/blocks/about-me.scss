@@ -1,0 +1,24 @@
+.about-me {
+    height: 600px;
+    background-color: #F5F1F1;
+    padding: 0;
+    display: flex;
+}
+
+.about-me__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me__image {
+    height: 300px;
+    margin-top: 150px;
+}
+
+.about-me__description {
+    font-size: 24px;
+    line-height: 30px;
+    height: 180px;
+    margin-top: 180px;
+    white-space: pre;
+}
