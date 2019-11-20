@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'PT Sans';
+    src:  url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'PT Sans', Arial, Sans-serif;
+}
+
 a {
     text-decoration: none;
     display:block;

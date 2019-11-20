@@ -8,8 +8,7 @@
 }
 
 .projects__image {
-    margin-top: 35px;
     margin-bottom: 35px;
-    width: 360px;
-    height: 225px;
+    width: calc(100%/3);
+    height: 100%;
 }
