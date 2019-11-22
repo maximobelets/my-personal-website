@@ -3,12 +3,33 @@
 }
 
 .projects__images {
+    
+}
+
+.projects__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.projects__item {
+    position: relative;
+    width: calc(100%/3);
+}
+
+.projects__link {
+
 }
 
 .projects__image {
-    width: calc(100%/3);
-    height: 100%;
+    width: 100%;
+}
+
+.projects__info {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
