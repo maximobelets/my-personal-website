@@ -21,7 +21,7 @@
 }
 
 .projects__link {
-
+    
 }
 
 .projects__image {
@@ -32,15 +32,17 @@
 .projects__info {
     position: absolute;
     top: 0;
-    left: 50%;;
+    left: 40%;
+    color: #ffffff;
 }
 
-// .projects__title {
-//     margin: 0;
-//     padding: 0;
-// }
+.projects__title {
+    // margin: 0;
+    // padding: 0;
+    text-align: center;
+}
 
-// .projects__description {
-//     margin: 0;
-//     padding: 0;
-// }
+.projects__description {
+    // margin: 0;
+    // padding: 0;
+}
