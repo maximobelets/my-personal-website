@@ -12,3 +12,17 @@
     margin-top: 150px;
     margin-bottom: 150px;
 }
+
+@media (max-width: $tablet-width) {
+    .skills__title {
+        text-align: center;
+        white-space: normal;
+    }
+}
+
+@media (max-width: $mobile-width) {
+    .skills__title {
+        text-align: center;
+        white-space: normal;
+    }
+}
